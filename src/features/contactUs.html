@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My shopping website </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/shopHomepage.css" rel="stylesheet">
+    <link href="../css/contactUsCss.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+
+<body ng-app="mainApp">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../index.html">Welcome!!</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+            <div class="row">
+                <div></div>
+                <img id="postcard" src="http://www.4ongo.com/wp-content/uploads/2014/11/contact-us-icon-for-website-310.png" alt="postcard" class="img-responsive move">
+                <div id="content" >
+                    <h1> Contact me </h1>
+
+                    <form role="form">
+                        <table width="100%">
+                        <div class="form-group">
+                        <tr>
+                        <td>
+                            <label for="username" class="iconic user" > Name <span class="required">*</span></label>
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" name="username" id="username"  required="required" placeholder="Hi friend, how may I call you ?">
+                         </td>
+                         </tr>
+                        </div>
+                        
+                        <div class="form-group">
+                           <tr>
+                           <td>
+                           <label for="usermail" class="iconic mail-alt"> E-mail address <span class="required">*</span></label> 
+                           </td>
+                           <td>
+                            <input type="email" class="form-control" name="usermail" id="usermail" placeholder="I promise I hate spam as much as you do" required="required">
+                            </td>
+                            </tr>
+                        </div>
+                        <div class="form-group">
+                        <tr>
+                        <td> 
+                        <label for="subject" class="iconic quote-alt"> Subject </label>        
+                        </td>
+                        <td> 
+                        <input type="text" class="form-control" name="subject" id="subject"  required="required" placeholder="What would you like to talk about?">
+                        </td>
+                        </tr>
+                        </div>
+                        <div class="form-group">
+                         <tr>
+                         <td>
+                            <label for="message" class="iconic comment"> Message </label>
+                            </td>
+                            <td>
+                          <textarea name="message" id="message"  class="form-control" rows="3" placeholder="Don't be shy, live me a friendly message and I'll answer as soon as possible"  required="required"></textarea>
+                          </td>
+                          </tr>
+                        </div>
+                        </table>
+                        <center><input type="submit" value=" ★  Send the mail !" />    	</center>
+                    </form>
+                </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../mainApp.js"></script>
+</body>
+
+</html>
